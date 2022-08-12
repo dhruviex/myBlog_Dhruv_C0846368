@@ -1,0 +1,111 @@
+
+/* styles for body element */
+body {
+    background: url(images/IMG_0777.jpg);
+    opacity: 1;
+    
+  }
+  
+  /* styles for fluid image */
+  img {
+    max-width: 20%;
+    transform-style: flat;
+    border-radius: 40px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+
+  }
+  p{
+    color: rgb(24, 1, 101);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    size: 30em;
+  }
+  
+  /* styles for teh container id */
+  #container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: olive;
+  }
+  
+  /* styles for the header section */
+  header {
+    text-align: center;
+  }
+  
+  /* styles for the nav element */
+  nav {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -1.5em;
+  }
+  
+  /* add styles for the unordered list in teh nav */
+  nav ul {
+    padding: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  /* add style for the list items in the nav */
+  nav li {
+    background-color: #9d9d93;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+    display: inline-block;
+  }
+  
+  /* add styles fro teh anchor tag inside the li */
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+ 
+  /* add styles for teh mobile class */
+  .mobile {
+    display: inline;
+  }
+  
+  /* add style fro the desktop class */
+  .desktop {
+    display: none;
+  }
+  
+    /* styles for teh contact class */
+    main {
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 1em;
+        margin-top: 0.5em;
+        padding: 1em;
+        border-radius: 2em 0 2em 0;
+        background-color: #ffffff;
+        opacity: 0.85;
+      }
+      /* footer styles */
+      footer {
+        font-size: 0.7em;
+        text-align: center;
+        margin-top: 2em;
+        color: #ffffff;
+      }
+
+      #copyright {
+        float: left;
+        margin-top: 2em;
+        padding: auto;
+        width: 80%;
+        color: rgb(180, 184, 50);
+
+      }  
+      h1 {
+        text-align: center;
+        color: rgb(24, 1, 101);
+      }
